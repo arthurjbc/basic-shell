@@ -1,8 +1,0 @@
-all: solver
-
-solver:
-    gcc	process.c	-o	process
-    ./process
-
-clean:
-    rm -f process
